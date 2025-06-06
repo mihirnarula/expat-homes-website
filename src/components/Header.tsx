@@ -16,7 +16,7 @@ export default function Header() {
   const links = ['Home', 'About', 'Services', 'Contact'];
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg py-4' : 'bg-transparent py-6'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg py-4' : 'bg-white py-6'}`}>
       <nav className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center space-x-2">
