@@ -54,7 +54,7 @@ const properties = [
   },
   {
     name: 'IREO Grand Arch, Gurgaon',
-    image: '/EH Properties/IREO Grand Arch.jpg',
+    image: '/EH Properties/Grand-Arch.jpg',
     map: 'https://maps.app.goo.gl/PDcYD3otAgt5ZwQr6',
   },
   {
