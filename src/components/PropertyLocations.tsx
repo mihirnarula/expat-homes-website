@@ -83,7 +83,7 @@ export default function PropertyLocations() {
   };
 
   return (
-    <Section id="locations" className="bg-gray-50">
+    <Section id="locations" className="bg-orange-100">
       <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-8">
         Property Locations
       </h2>
