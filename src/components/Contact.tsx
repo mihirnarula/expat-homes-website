@@ -19,7 +19,7 @@ export default function Contact() {
     const form = e.target as HTMLFormElement;
     const data = new FormData(form);
     try {
-      await fetch('https://formsubmit.co/ajax/mihirnarula@gmail.com', {
+      await fetch('https://formsubmit.co/ajax/sales@expat-homes.in', {
         method: 'POST',
         body: data,
         headers: { 'Accept': 'application/json' },
@@ -47,7 +47,7 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="text-[2rem] text-accent" />
-              <span className="text-primary font-semibold text-lg">info@expathomes.com</span>
+              <span className="text-primary font-semibold text-lg">sales@expat-homes.in</span>
             </div>
           </div>
         </div>
