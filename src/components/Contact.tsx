@@ -20,7 +20,7 @@ export default function Contact() {
     <Section id="contact">
       <div className="max-w-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-6">
-          Get in Touch
+          For Inquiries
         </h2>
         <div className="space-y-4">
           <div className="flex items-center justify-center space-x-3">

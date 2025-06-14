@@ -5,6 +5,7 @@ import Services from './components/Services';
 import PropertyLocations from './components/PropertyLocations';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Furnishings from './components/Furnishings';
 import { useEffect } from 'react';
 
 export default function App() {
@@ -52,6 +53,7 @@ export default function App() {
         <Hero />
         <About />
         <Services />
+        <Furnishings />
         <PropertyLocations />
         <Contact />
       </main>
