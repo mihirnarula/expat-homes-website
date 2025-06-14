@@ -88,10 +88,10 @@ const Furnishings: React.FC = () => {
           {furnishings.map((item) => (
             <div
               key={item.id}
-              className="group relative overflow-hidden bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+              className="group relative overflow-hidden rounded-lg bg-white shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
             >
               {/* Image Container */}
-              <div className="relative aspect-[4/3] overflow-hidden">
+              <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
                 <img
                   src={item.imageUrl}
                   alt={item.alt}

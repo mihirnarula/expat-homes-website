@@ -38,7 +38,7 @@ export default function Contact() {
       <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto items-start">
         {/* Contact Info */}
         <div className="flex-1 mb-8 md:mb-0">
-          <h2 className="text-4xl font-display font-bold text-primary mb-6 text-left">Get in Touch</h2>
+          <h2 className="text-4xl font-display font-bold text-primary mb-6 text-left">For Inquiries</h2>
           <p className="mb-6 text-lg text-gray-700 text-left">Have questions about our properties or services?<br />Contact us today.</p>
           <div className="space-y-5">
             <div className="flex items-center space-x-3">
