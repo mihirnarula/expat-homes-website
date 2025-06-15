@@ -18,7 +18,7 @@ const properties = [
     map: 'https://g.co/kgs/TnioUsk',
   },
   {
-    name: 'DLF Ultima , Sector 81, Gurgaon',
+    name: 'DLF Ultima, Sector 81, Gurgaon',
     image: '/EH Properties/DLF Ultima.jpg',
     map: 'https://g.co/kgs/u4aXPqU',
   },
@@ -63,7 +63,7 @@ const properties = [
     map: 'https://g.co/kgs/c17cCHb',
   },
   {
-    name: 'M3M Estate. Gurgaon',
+    name: 'M3M Heights, Gurgaon',
     image: '/EH Properties/m3m-heights-picture.jpg',
     map: 'https://g.co/kgs/ZCLM2Mc',
   },
