@@ -8,7 +8,7 @@ export default function About() {
           About Us
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed">
-          Expat Homes offers fully-furnished, well-equipped apartments and monthly car rentals tailored for expats and corporate professionals. We also help with residential searches and provide complete furnishing as per client needs.
+          <b> Expat Homes </b> offers fully-furnished, well-equipped apartments and monthly car rentals tailored for expats and corporate professionals. We also help with residential searches and provide complete furnishing as per client needs.
         </p>
       </div>
       <a href="https://www.linkedin.com/in/monicakhanna1229/" target="_blank" rel="noopener noreferrer" className="mb-4">

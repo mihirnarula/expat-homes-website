@@ -13,10 +13,10 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-32">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
-            Premium Serviced Apartments and Car Rentals for Expats & Corporates
+            Luxury Serviced Apartments and Car Rentals for Expats & Corporates
           </h1>
           <p className="text-lg md:text-xl text-white/90 mb-8">
-            Your home away from home in the heart of India's business hubs
+            Your home away from home in the heart of India's premium residential areas
           </p>
           <Button onClick={() => document.getElementById('locations')?.scrollIntoView({ behavior: 'smooth' })}>
             Explore Properties

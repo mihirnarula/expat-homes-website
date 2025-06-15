@@ -14,55 +14,82 @@ const Furnishings: React.FC = () => {
     {
       id: 1,
       imageUrl: "/furnishings/1.jpg",
-      propertyName: "DLF Park Place",
+      propertyName: "DLF Crest",
       roomType: "Bedroom",
-      alt: "DLF Park Place Living Room furnished apartment"
+      alt: "DLF Crest Bedroom furnished apartment"
     },
     {
       id: 2,
       imageUrl: "/furnishings/2.jpg",
-      propertyName: "DLF Crest",
-      roomType: "Master Bedroom",
-      alt: "DLF Crest Master Bedroom furnished apartment"
+      propertyName: "DLF Park Place",
+      roomType: "Living Room",
+      alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 3,
       imageUrl: "/furnishings/3.jpg",
-      propertyName: "DLF Park Place",
-      roomType: "Modern Kitchen",
-      alt: "DLF Park Place Modern Kitchen furnished apartment"
+      propertyName: "DLF Ultima",
+      roomType: "Bedroom",
+      alt: "DLF Ultima Bedroom furnished apartment"
     },
     {
       id: 4,
       imageUrl: "/furnishings/4.jpg",
-      propertyName: "DLF Crest",
-      roomType: "Dining Area",
-      alt: "DLF Crest Dining Area furnished apartment"
+      propertyName: "DLF Park Place",
+      roomType: "Living Room",
+      alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 5,
       imageUrl: "/furnishings/5.jpg",
       propertyName: "DLF Park Place",
-      roomType: "Guest Bedroom",
-      alt: "DLF Park Place Guest Bedroom furnished apartment"
+      roomType: "Living Room",
+      alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 6,
       imageUrl: "/furnishings/6.jpg",
       propertyName: "DLF Crest",
-      roomType: "Study Room",
-      alt: "DLF Crest Study Room furnished apartment"
+      roomType: "Bedroom",
+      alt: "DLF Crest Bedroom furnished apartment"
     },
     {
       id: 7,
       imageUrl: "/furnishings/7.jpg",
       propertyName: "DLF Park Place",
-      roomType: "Balcony Lounge",
-      alt: "DLF Park Place Balcony Lounge furnished apartment"
+      roomType: "Dining Area",
+      alt: "DLF Park Place Dining Area furnished apartment"
     },
     {
       id: 8,
       imageUrl: "/furnishings/8.jpg",
+      propertyName: "DLF Belaire",
+      roomType: "Living Room",
+      alt: "DLF Belaire Living Room furnished apartment"
+    },
+    {
+      id: 9,
+      imageUrl: "/furnishings/9.jpg",
+      propertyName: "DLF Crest",
+      roomType: "Living Room",
+      alt: "DLF Crest Living Room furnished apartment"
+    },
+    {
+      id: 10,
+      imageUrl: "/furnishings/10.jpg",
+      propertyName: "Emaar Digi Homes",
+      roomType: "Living Room",
+      alt: "Emaar Digi Homes Living Room furnished apartment"
+    },
+    {
+      id: 11,
+      imageUrl: "/furnishings/11.jpg",
+      propertyName: "DLF Crest",
+      roomType: "Bedroom",
+      alt: "DLF Crest Bedroom furnished apartment"
+    },
+    { id: 12,
+      imageUrl: "/furnishings/12.jpg",
       propertyName: "DLF Crest",
       roomType: "Living Room",
       alt: "DLF Crest Living Room furnished apartment"
@@ -75,10 +102,11 @@ const Furnishings: React.FC = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h3 className="text-3xl md:text-4xl font-display font-bold text-primary mb-6 tracking-wide">
-            Our Furnished Properties
+            Our Furnished Apartments
           </h3>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Discover our meticulously furnished apartments designed for the discerning expat. 
+            <br />
             Each space combines luxury with functionality, ensuring a seamless transition to your new home in India.
           </p>
         </div>

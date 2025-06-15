@@ -34,7 +34,7 @@ export default function Contact() {
   };
 
   return (
-    <Section id="contact">
+    <Section id="contact" className="bg-orange-100">
       <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto items-start">
         {/* Contact Info */}
         <div className="flex-1 mb-8 md:mb-0">
@@ -43,11 +43,11 @@ export default function Contact() {
           <div className="space-y-5">
             <div className="flex items-center space-x-3">
               <Phone className="text-[2rem] text-accent" />
-              <span className="text-primary font-semibold text-lg">Monica Khanna: +91 9911005759</span>
+              <span className="text-primary font-semibold text-lg">+91 9911005759</span>
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="text-[2rem] text-accent" />
-              <span className="text-primary font-semibold text-lg">info@expathomes.com</span>
+              <span className="text-primary font-semibold text-lg">sales@expat-homes.in</span>
             </div>
           </div>
         </div>
