@@ -7,7 +7,7 @@ export default function Hero() {
         className="absolute inset-0 bg-[url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg')] bg-cover bg-center"
         style={{ backgroundImage: "url('https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg')" }}
       >
-        <div className="absolute inset-0 bg-primary/70"></div>
+        <div className="absolute inset-0 bg-orange-400/70"></div>
       </div>
       
       <div className="relative max-w-7xl mx-auto px-4 md:px-8 py-32">

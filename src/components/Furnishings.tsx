@@ -102,8 +102,8 @@ const Furnishings: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 
                 {/* Caption Box */}
-                <div className="absolute bottom-0 left-0 right-0 bg-white mx-4 mb-4 p-4 shadow-xl transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
-                  <h3 className="font-semibold text-gray-900 text-base mb-1">
+                <div className="absolute bottom-0 left-0 right-0 bg-neutral-100 rounded-lg mx-4 mb-4 p-2 shadow-xl transform translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-out">
+                  <h3 className="font-semibold font-display text-gray-900 text-base mb-1">
                     {item.propertyName} {item.roomType}
                   </h3>
                 </div>
