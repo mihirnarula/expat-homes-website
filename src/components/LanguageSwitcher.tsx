@@ -6,9 +6,9 @@ interface Props {
 }
 
 const languages = [
-  { code: 'en', label: 'English', path: '/' },
-  { code: 'ja', label: '日本語', path: '/ja' },
-  { code: 'ko', label: '한국어', path: '/ko' },
+  { code: 'en', label: 'English', path: '/index.html' },
+  { code: 'ja', label: '日本語', path: '/ja.html' },
+  { code: 'ko', label: '한국어', path: '/ko.html' },
 ];
 
 export default function LanguageSwitcher({ current }: Props) {

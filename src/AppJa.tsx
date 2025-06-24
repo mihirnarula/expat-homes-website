@@ -11,8 +11,8 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 export default function AppJa() {
   return (
     <div className="min-h-screen">
-      <HeaderJa />
       <LanguageSwitcher current="ja" />
+      <HeaderJa />
       <main>
         <HeroJa />
         <AboutJa />

@@ -11,8 +11,8 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 export default function AppKo() {
   return (
     <div className="min-h-screen">
-      <HeaderKo />
       <LanguageSwitcher current="ko" />
+      <HeaderKo />
       <main>
         <HeroKo />
         <AboutKo />
