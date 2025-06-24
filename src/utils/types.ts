@@ -16,3 +16,11 @@ export interface ServiceCardProps {
   description: string;
   icon: React.ReactNode;
 }
+
+export interface FurnishingItem {
+  id: number;
+  imageUrl: string;
+  propertyName: string;
+  roomType: string;
+  alt: string;
+}
