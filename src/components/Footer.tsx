@@ -8,8 +8,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <img src="/images/logo.png" alt="Expat Homes Logo" className="h-10 w-auto" />
-            <span className="text-xl font-display font-semibold">Expat Homes</span>
+            <img src="/images/logo.png" alt="Expat Homes Logo" className="h-20 w-auto" />
           </div>
           
           <nav className="flex flex-wrap justify-center gap-6">

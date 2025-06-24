@@ -21,7 +21,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center space-x-2">
             <img src="/images/logo.png" alt="Expat Homes Logo" className="h-10 w-auto" />
-            <span className="text-xl font-display font-semibold text-primary">Expat Homes</span>
+            <span className="text-2xl font-display font-bold text-primary">Expat Homes</span>
           </a>
 
           {/* Desktop Navigation */}
