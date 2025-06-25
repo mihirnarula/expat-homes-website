@@ -12,9 +12,8 @@ import LanguageSwitcher from './components/LanguageSwitcher';
 export default function App() {
   return (
     <div className="min-h-screen">
-      <LanguageSwitcher current="en" />
-      <Header />
-      <main>
+      <Header current="en" />
+      <main className="pt-20">
         <Hero />
         <About />
         <Services />
