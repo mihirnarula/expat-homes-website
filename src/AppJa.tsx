@@ -2,6 +2,7 @@ import HeaderJa from './components/HeaderJa';
 import HeroJa from './components/HeroJa';
 import AboutJa from './components/AboutJa';
 import ServicesJa from './components/ServicesJa';
+import ClientLogos from './components/ClientLogos';
 import PropertyLocationsJa from './components/PropertyLocationsJa';
 import ContactJa from './components/ContactJa';
 import FooterJa from './components/FooterJa';
@@ -17,6 +18,7 @@ export default function AppJa() {
         <HeroJa />
         <AboutJa />
         <ServicesJa />
+        <ClientLogos title="一部のクライアントリスト" />
         <FurnishingsJa />
         <PropertyLocationsJa />
         <ContactJa />

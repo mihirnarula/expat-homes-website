@@ -2,6 +2,7 @@ import HeaderKo from './components/HeaderKo';
 import HeroKo from './components/HeroKo';
 import AboutKo from './components/AboutKo';
 import ServicesKo from './components/ServicesKo';
+import ClientLogos from './components/ClientLogos';
 import PropertyLocationsKo from './components/PropertyLocationsKo';
 import ContactKo from './components/ContactKo';
 import FooterKo from './components/FooterKo';
@@ -17,6 +18,7 @@ export default function AppKo() {
         <HeroKo />
         <AboutKo />
         <ServicesKo />
+        <ClientLogos title="일부 고객 명단" />
         <FurnishingsKo />
         <PropertyLocationsKo />
         <ContactKo />

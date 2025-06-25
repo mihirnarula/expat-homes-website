@@ -2,6 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import ClientLogos from './components/ClientLogos';
 import PropertyLocations from './components/PropertyLocations';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -17,6 +18,7 @@ export default function App() {
         <Hero />
         <About />
         <Services />
+        <ClientLogos title="Partial Client List" />
         <Furnishings />
         <PropertyLocations />
         <Contact />
