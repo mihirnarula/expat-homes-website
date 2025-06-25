@@ -2,19 +2,22 @@ import Marquee from "react-fast-marquee";
 import Section from "./Section";
 
 const logos = [
-  "/client images/Picture1-Kita.png",
-  "/client images/Picture2-lotte.png",
-  "/client images/Picture3-yaskawa.png",
-  "/client images/Picture4-hyundai.png",
-  "/client images/Picture5-kobelco.png",
-  "/client images/Picture6-dyninno.png",
-  "/client images/Picture7-samsung.png",
-  "/client images/Picture8-ksure.png",
-  "/client images/Picture9-hamabo.png",
-  "/client images/Picture10-munjalkiriu.png",
-  "/client images/Picture11-nri.png",
-  "/client images/Picture12-svam-toyal.png",
-  "/client images/Picture13-nihonkohden.png",
+  "/client-images/Picture1-Kita.png",
+  "/client-images/Picture2-lotte.png",
+  "/client-images/Picture3-yaskawa.png",
+  "/client-images/Picture4-hyundai.png",
+  "/client-images/Picture5-kobelco.png",
+  "/client-images/Picture6-dyninno.png",
+  "/client-images/Picture7-samsung.png",
+  "/client-images/Picture8-ksure.png",
+  "/client-images/hamabo.jpg",
+  "/client-images/Picture10-munjalkiriu.png",
+  "/client-images/Picture11-nri.png",
+  "/client-images/Picture12-svam-toyal.png",
+  "/client-images/Picture13-nihonkohden.png",
+  "/client-images/glovis-logo.png",
+  "/client-images/esc-kubota-logo.png",
+  "/client-images/orion-logo.png",
 ];
 
 interface ClientLogosProps {
