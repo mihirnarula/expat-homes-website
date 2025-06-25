@@ -49,11 +49,8 @@ export default function ContactKo() {
               <span className="text-primary font-semibold text-lg">sales@expat-homes.in</span>
             </div>
             <a href="https://wa.me/919911005759" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 group">
-              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" stroke="#F4B942" strokeWidth="2" className="text-[2rem]" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 3C9.37258 3 4 8.37258 4 15C4 17.3852 4.8038 19.6274 6.22222 21.4444L4 29L11.1111 26.7778C12.9281 28.1962 15.1703 29 17.5556 29C24.183 29 29.5556 23.6274 29.5556 17C29.5556 10.3726 24.183 5 17.5556 5C17.5556 5 17.5556 5 17.5556 5" stroke="#F4B942" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M21.3333 20.2222C20.4444 20.6667 19.5556 21 18.6667 21C15.1111 21 12 17.8889 12 14.3333C12 13.4444 12.3333 12.5556 12.7778 11.6667" stroke="#F4B942" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              </svg>
-              <span className="text-primary font-semibold text-lg group-hover:text-accent transition-colors">WhatsApp (왓츠앱)</span>
+                  <img src="/images/whatsapp.png" alt="WhatsApp Icon" className="w-40 h-full" />
+              <span className="text-primary font-semibold text-lg group-hover:text-accent transition-colors">(왓츠앱)</span>
             </a>
           </div>
         </div>
