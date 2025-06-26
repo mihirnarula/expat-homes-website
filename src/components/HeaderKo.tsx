@@ -26,9 +26,13 @@ export default function HeaderKo({ current }: HeaderKoProps) {
   ];
 
   return (
-    <div className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`}>
-      <LanguageSwitcher current={current} />
-      <header className={`bg-white transition-all duration-300 ${isScrolled ? 'py-4' : 'py-6'}`}>
+    <div className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'shadow-lg' : ''}`}
+         style={{top: 0, left: 0}}>
+      <div className="bg-white border-b border-gray-200">
+        <LanguageSwitcher current={current} />
+      </div>
+      <header className={`bg-white transition-all duration-300 ${isScrolled ? 'py-4' : 'py-6'}`}
+              style={{marginTop: 0}}>
         <nav className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="flex items-center justify-between">
             <a href="#" className="flex items-center space-x-2">
