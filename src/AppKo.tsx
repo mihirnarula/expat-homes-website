@@ -13,7 +13,7 @@ export default function AppKo() {
   return (
     <div className="min-h-screen">
       <HeaderKo current="ko" />
-      <main>
+      <main className="pt-20">
         <HeroKo />
         <AboutKo />
         <ServicesKo />

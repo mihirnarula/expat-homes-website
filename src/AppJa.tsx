@@ -13,7 +13,7 @@ export default function AppJa() {
   return (
     <div className="min-h-screen">
       <HeaderJa current="ja" />
-      <main>
+      <main className="pt-20">
         <HeroJa />
         <AboutJa />
         <ServicesJa />
