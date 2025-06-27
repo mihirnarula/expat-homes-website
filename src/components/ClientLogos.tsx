@@ -15,9 +15,10 @@ const logos = [
   "/client-images/Picture11-nri.png",
   "/client-images/Picture12-svam-toyal.png",
   "/client-images/Picture13-nihonkohden.png",
-  "/client-images/glovis-logo.png",
+  "/client-images/glovis.jpg",
   "/client-images/esc-kubota-logo.png",
   "/client-images/orion-logo.png",
+  "/client-images/kotra.jpg",
 ];
 
 interface ClientLogosProps {
@@ -26,7 +27,7 @@ interface ClientLogosProps {
 
 export default function ClientLogos({ title }: ClientLogosProps) {
   return (
-    <Section id="clients">
+    <Section id="clients" className="bg-orange-100">
       <div className="text-center">
         <h2 className="text-3xl font-display font-bold text-primary mb-8">{title}</h2>
       </div>

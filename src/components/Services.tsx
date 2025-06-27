@@ -26,7 +26,7 @@ function ServiceCard({ title, description, details, icon, isExpanded, onToggle }
       </button>
 
       {isExpanded && (
-        <ul className="mt-3 list-disc list-inside text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
+        <ul className="mt-1 list-disc list-inside text-justify text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
           {details.map((point, idx) => (
             <li key={idx}>{point}</li>
           ))}
@@ -46,30 +46,26 @@ export default function Services() {
       description: 'Fully furnished, equipped & air-conditioned homes in Gurgaon & Delhi.',
       icon: <Home className="w-8 h-8" />,
       details: [
-        "Fully furnished, equipped & airconditioned apartments.",
         "Amenities like fridge, gas stove, microwave, deep freezer, water filter, air purifier, etc.",
         "Crockery, cutlery and glassware",
-        "LED Smart TV and Wi-fi",
-        "24 hours Security and Power backup in each apartment.",
+        "LED Smart TV and wi-fi",
+        "24 hours security and power backup in each apartment.",
         "Complete bedding with bedspread, upgraded sheets, pillows, and towels",
         "Daily housekeeping service, biweekly change of bathroom towels, changing of bed linen once a week.",
-        "Personal Laundry Service (at additional cost).",
         "Full maintenance team of electricians, plumbers, carpenters etc.",
         "24x7 Help Desk to cater to client needs."
       ]
     },
     {
       title: 'Car Rentals',
-      description: 'Monthly rentals with English-speaking drivers & GPS-enabled cars.',
+      description: 'Monthly rentals with English-speaking drivers.',
       icon: <Car className="w-8 h-8" />,
       details: [
-        "We provide cars on Monthly Rental Models for Expats.",
-        "Airport transfers & office drops",
-        "Our Fleet has all variants – Innova Crysta, Suzuki Dzire, Suzuki Ertiga, Kia. Carnival, Kia Creta, Honda City, etc.",
-        "All Cabs are GPS Fitted.",
+        "We provide cars on monthly rental models for expats and corporates.",
+        "Our Fleet has all variants- Innova Crysta, Suzuki Dzire, Suzuki Ertiga, Kia Carnival, Hyundai Creta, etc.",
         "Our Drivers understand English and undergo regular training.",
         "We have a 24x7 Help Desk to cater to client needs.",
-        "We believe in Safety, Punctuality and Reliability."
+        "We believe in safety, punctuality and reliability."
       ],
     },
     {

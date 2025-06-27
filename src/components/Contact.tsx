@@ -34,7 +34,7 @@ export default function Contact() {
   };
 
   return (
-    <Section id="contact" className="bg-orange-100">
+    <Section id="contact" className="bg-white">
       <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto items-start">
         {/* Contact Info */}
         <div className="flex-1 mb-8 md:mb-0">

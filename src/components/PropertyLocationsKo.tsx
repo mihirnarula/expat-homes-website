@@ -31,7 +31,7 @@ export default function PropertyLocationsKo() {
   };
 
   return (
-    <Section id="locations" className="bg-white">
+    <Section id="locations" className="bg-orange-100">
       <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-8">
         부동산 위치
       </h2>
