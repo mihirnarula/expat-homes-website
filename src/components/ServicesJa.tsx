@@ -24,7 +24,7 @@ function ServiceCard({ title, description, details, icon, isExpanded, onToggle }
         {isExpanded ? '詳細を閉じる' : '詳細を見る'}
       </button>
       {isExpanded && (
-        <ul className="mt-3 list-disc list-inside text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
+        <ul className="mt-1 list-disc list-inside text-justify text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
           {details.map((point, idx) => (
             <li key={idx}>{point}</li>
           ))}

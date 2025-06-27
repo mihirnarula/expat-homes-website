@@ -24,7 +24,7 @@ function ServiceCard({ title, description, details, icon, isExpanded, onToggle }
         {isExpanded ? '간략히 보기' : '자세히 보기'}
       </button>
       {isExpanded && (
-        <ul className="mt-3 list-disc list-inside text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
+        <ul className="mt-1 list-disc list-inside text-justify text-gray-600 marker:text-accent space-y-1 transition-all duration-300">
           {details.map((point, idx) => (
             <li key={idx}>{point}</li>
           ))}

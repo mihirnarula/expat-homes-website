@@ -34,7 +34,7 @@ export default function ContactJa() {
   };
 
   return (
-    <Section id="contact" className="bg-orange-100">
+    <Section id="contact" className="bg-white">
       <div className="flex flex-col md:flex-row gap-12 max-w-5xl mx-auto items-start">
         <div className="flex-1 mb-8 md:mb-0">
           <h2 className="text-4xl font-display font-bold text-primary mb-6 text-left">お問い合わせ</h2>

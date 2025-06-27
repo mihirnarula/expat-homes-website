@@ -18,7 +18,7 @@ const FurnishingsJa: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-orange-100">
+    <section className="py-20 px-6 bg-white">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h3 className="text-3xl md:text-4xl font-display font-bold text-primary mb-6 tracking-wide">
