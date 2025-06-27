@@ -3,18 +3,18 @@ import { FurnishingItem } from '../utils/types';
 
 const FurnishingsJa: React.FC = () => {
   const furnishings: FurnishingItem[] = [
-        { id: 1, imageUrl: "/furnishings/1.jpg", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
-        { id: 2, imageUrl: "/furnishings/2.jpg", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
-        { id: 3, imageUrl: "/furnishings/3.jpg", propertyName: "DLF Ultima", roomType: "寝室", alt: "DLF Ultima 寝室 家具付きアパート" },
-        { id: 4, imageUrl: "/furnishings/4.jpg", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
-        { id: 5, imageUrl: "/furnishings/5.jpg", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
-        { id: 6, imageUrl: "/furnishings/6.jpg", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
-        { id: 7, imageUrl: "/furnishings/7.jpg", propertyName: "DLF Park Place", roomType: "ダイニングエリア", alt: "DLF Park Place ダイニングエリア 家具付きアパート" },
-        { id: 8, imageUrl: "/furnishings/8.jpg", propertyName: "DLF Belaire", roomType: "リビングルーム", alt: "DLF Belaire リビングルーム 家具付きアパート" },
-        { id: 9, imageUrl: "/furnishings/9.jpg", propertyName: "DLF Crest", roomType: "リビングルーム", alt: "DLF Crest リビングルーム 家具付きアパート" },
-        { id: 10, imageUrl: "/furnishings/10.jpg", propertyName: "Emaar Digi Homes", roomType: "リビングルーム", alt: "Emaar Digi Homes リビングルーム 家具付きアパート" },
-        { id: 11, imageUrl: "/furnishings/11.jpg", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
-        { id: 12, imageUrl: "/furnishings/12.jpg", propertyName: "DLF Crest", roomType: "リビングルーム", alt: "DLF Crest リビングルーム 家具付きアパート" }
+        { id: 1, imageUrl: "/furnishings/1.png", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
+        { id: 2, imageUrl: "/furnishings/2.png", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
+        { id: 3, imageUrl: "/furnishings/3.png", propertyName: "DLF Ultima", roomType: "寝室", alt: "DLF Ultima 寝室 家具付きアパート" },
+        { id: 4, imageUrl: "/furnishings/4.png", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
+        { id: 5, imageUrl: "/furnishings/5.png", propertyName: "DLF Park Place", roomType: "リビングルーム", alt: "DLF Park Place リビングルーム 家具付きアパート" },
+        { id: 6, imageUrl: "/furnishings/6.png", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
+        { id: 7, imageUrl: "/furnishings/7.png", propertyName: "DLF Park Place", roomType: "ダイニングエリア", alt: "DLF Park Place ダイニングエリア 家具付きアパート" },
+        { id: 8, imageUrl: "/furnishings/8.png", propertyName: "DLF Belaire", roomType: "リビングルーム", alt: "DLF Belaire リビングルーム 家具付きアパート" },
+        { id: 9, imageUrl: "/furnishings/9.png", propertyName: "DLF Crest", roomType: "リビングルーム", alt: "DLF Crest リビングルーム 家具付きアパート" },
+        { id: 10, imageUrl: "/furnishings/10.png", propertyName: "Emaar Digi Homes", roomType: "リビングルーム", alt: "Emaar Digi Homes リビングルーム 家具付きアパート" },
+        { id: 11, imageUrl: "/furnishings/11.png", propertyName: "DLF Crest", roomType: "寝室", alt: "DLF Crest 寝室 家具付きアパート" },
+        { id: 12, imageUrl: "/furnishings/12.png", propertyName: "DLF Crest", roomType: "リビングルーム", alt: "DLF Crest リビングルーム 家具付きアパート" }
   ];
 
   return (
