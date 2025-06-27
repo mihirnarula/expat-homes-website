@@ -13,83 +13,83 @@ const Furnishings: React.FC = () => {
   const furnishings: FurnishingItem[] = [
     {
       id: 1,
-      imageUrl: "/furnishings/1.jpg",
+      imageUrl: "/furnishings/1.png",
       propertyName: "DLF Crest",
       roomType: "Bedroom",
       alt: "DLF Crest Bedroom furnished apartment"
     },
     {
       id: 2,
-      imageUrl: "/furnishings/2.jpg",
+      imageUrl: "/furnishings/2.png",
       propertyName: "DLF Park Place",
       roomType: "Living Room",
       alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 3,
-      imageUrl: "/furnishings/3.jpg",
+      imageUrl: "/furnishings/3.png",
       propertyName: "DLF Ultima",
       roomType: "Bedroom",
       alt: "DLF Ultima Bedroom furnished apartment"
     },
     {
       id: 4,
-      imageUrl: "/furnishings/4.jpg",
+      imageUrl: "/furnishings/4.png",
       propertyName: "DLF Park Place",
       roomType: "Living Room",
       alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 5,
-      imageUrl: "/furnishings/5.jpg",
+      imageUrl: "/furnishings/5.png",
       propertyName: "DLF Park Place",
       roomType: "Living Room",
       alt: "DLF Park Place Living Room furnished apartment"
     },
     {
       id: 6,
-      imageUrl: "/furnishings/6.jpg",
+      imageUrl: "/furnishings/6.png",
       propertyName: "DLF Crest",
       roomType: "Bedroom",
       alt: "DLF Crest Bedroom furnished apartment"
     },
     {
       id: 7,
-      imageUrl: "/furnishings/7.jpg",
+      imageUrl: "/furnishings/7.png",
       propertyName: "DLF Park Place",
       roomType: "Dining Area",
       alt: "DLF Park Place Dining Area furnished apartment"
     },
     {
       id: 8,
-      imageUrl: "/furnishings/8.jpg",
+      imageUrl: "/furnishings/8.png",
       propertyName: "DLF Belaire",
       roomType: "Living Room",
       alt: "DLF Belaire Living Room furnished apartment"
     },
     {
       id: 9,
-      imageUrl: "/furnishings/9.jpg",
+      imageUrl: "/furnishings/9.png",
       propertyName: "DLF Crest",
       roomType: "Living Room",
       alt: "DLF Crest Living Room furnished apartment"
     },
     {
       id: 10,
-      imageUrl: "/furnishings/10.jpg",
+      imageUrl: "/furnishings/10.png",
       propertyName: "Emaar Digi Homes",
       roomType: "Living Room",
       alt: "Emaar Digi Homes Living Room furnished apartment"
     },
     {
       id: 11,
-      imageUrl: "/furnishings/11.jpg",
+      imageUrl: "/furnishings/11.png",
       propertyName: "DLF Crest",
       roomType: "Bedroom",
       alt: "DLF Crest Bedroom furnished apartment"
     },
     { id: 12,
-      imageUrl: "/furnishings/12.jpg",
+      imageUrl: "/furnishings/12.png",
       propertyName: "DLF Crest",
       roomType: "Living Room",
       alt: "DLF Crest Living Room furnished apartment"

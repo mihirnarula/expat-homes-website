@@ -3,18 +3,18 @@ import { FurnishingItem } from '../utils/types';
 
 const FurnishingsKo: React.FC = () => {
     const furnishings: FurnishingItem[] = [
-        { id: 1, imageUrl: "/furnishings/1.jpg", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
-        { id: 2, imageUrl: "/furnishings/2.jpg", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
-        { id: 3, imageUrl: "/furnishings/3.jpg", propertyName: "DLF Ultima", roomType: "침실", alt: "DLF Ultima 침실 가구 완비 아파트" },
-        { id: 4, imageUrl: "/furnishings/4.jpg", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
-        { id: 5, imageUrl: "/furnishings/5.jpg", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
-        { id: 6, imageUrl: "/furnishings/6.jpg", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
-        { id: 7, imageUrl: "/furnishings/7.jpg", propertyName: "DLF Park Place", roomType: "식사 공간", alt: "DLF Park Place 식사 공간 가구 완비 아파트" },
-        { id: 8, imageUrl: "/furnishings/8.jpg", propertyName: "DLF Belaire", roomType: "거실", alt: "DLF Belaire 거실 가구 완비 아파트" },
-        { id: 9, imageUrl: "/furnishings/9.jpg", propertyName: "DLF Crest", roomType: "거실", alt: "DLF Crest 거실 가구 완비 아파트" },
-        { id: 10, imageUrl: "/furnishings/10.jpg", propertyName: "Emaar Digi Homes", roomType: "거실", alt: "Emaar Digi Homes 거실 가구 완비 아파트" },
-        { id: 11, imageUrl: "/furnishings/11.jpg", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
-        { id: 12, imageUrl: "/furnishings/12.jpg", propertyName: "DLF Crest", roomType: "거실", alt: "DLF Crest 거실 가구 완비 아파트" }
+        { id: 1, imageUrl: "/furnishings/1.png", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
+        { id: 2, imageUrl: "/furnishings/2.png", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
+        { id: 3, imageUrl: "/furnishings/3.png", propertyName: "DLF Ultima", roomType: "침실", alt: "DLF Ultima 침실 가구 완비 아파트" },
+        { id: 4, imageUrl: "/furnishings/4.png", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
+        { id: 5, imageUrl: "/furnishings/5.png", propertyName: "DLF Park Place", roomType: "거실", alt: "DLF Park Place 거실 가구 완비 아파트" },
+        { id: 6, imageUrl: "/furnishings/6.png", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
+        { id: 7, imageUrl: "/furnishings/7.png", propertyName: "DLF Park Place", roomType: "식사 공간", alt: "DLF Park Place 식사 공간 가구 완비 아파트" },
+        { id: 8, imageUrl: "/furnishings/8.png", propertyName: "DLF Belaire", roomType: "거실", alt: "DLF Belaire 거실 가구 완비 아파트" },
+        { id: 9, imageUrl: "/furnishings/9.png", propertyName: "DLF Crest", roomType: "거실", alt: "DLF Crest 거실 가구 완비 아파트" },
+        { id: 10, imageUrl: "/furnishings/10.png", propertyName: "Emaar Digi Homes", roomType: "거실", alt: "Emaar Digi Homes 거실 가구 완비 아파트" },
+        { id: 11, imageUrl: "/furnishings/11.png", propertyName: "DLF Crest", roomType: "침실", alt: "DLF Crest 침실 가구 완비 아파트" },
+        { id: 12, imageUrl: "/furnishings/12.png", propertyName: "DLF Crest", roomType: "거실", alt: "DLF Crest 거실 가구 완비 아파트" }
     ];
 
   return (
